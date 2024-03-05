@@ -1,0 +1,52 @@
+.header {
+    background-image: url('./images/header-pics.jpg');
+    opacity: 0.85;
+    height: 60vh;
+    background-size: cover;
+    color: white;
+    padding-top: 5em;
+    padding-left: 5em;
+}
+
+.jeddah {
+    background-image: url(./images/Jeddah.png);
+    height: 30vh;
+    background-size: cover;
+    color: white;
+    padding: 5em;
+}
+
+.london {
+    background-image: url(./images/london.jpg);
+    height: 30vh;
+    background-size: cover;
+    color: white;
+    margin-left: 1em;
+    padding: 5em;
+}
+
+.toronto {
+    background-image: url(./images/Toronto.png);
+    height: 30vh;
+    background-size: cover;
+    color: white;
+    margin-left: 1em;
+    padding: 5em;
+}
+
+.dubai {
+    background-image: url(./images/Dubai.jpg);
+    height: 20vh;
+    background-size: cover;
+    color: white;
+    padding: 3em;
+}
+
+.lond {
+    background-image: url(./images/London\ \(1\).jpg);
+    height: 20vh;
+    background-size: cover;
+    color: white;
+    margin-left: 1em;
+    padding: 3em;
+}

@@ -12,7 +12,7 @@
 
 <body>
     <div class="container-fluid">
-        <nav class="navbar navbar-expand-sm navbar-gray bg-white fixed">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed">
             <div class="container-fluid">
                 <a class="navbar-brand" href="javascript:void(0)"><img src="./images/godspower.png"
                         style="width: 4em; border: 1px solid gray; border-radius: 50%;" /></a>
@@ -33,9 +33,9 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">More</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Link 1</a></li>
-                                <li><a class="dropdown-item" href="#">Link 2</a></li>
-                                <li><a class="dropdown-item" href="#">Link 3</a></li>
+                                <li><a class="dropdown-item" href="#">Visa processing</a></li>
+                                <li><a class="dropdown-item" href="#">Study abroad</a></li>
+                                <li><a class="dropdown-item" href="#">Emergencies</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -73,20 +73,22 @@
             <div class="input-group mb-3 input-group-lg">
                 <input type="text" class="form-control" placeholder="From where?">
             </div>
-            <div class="input-group mb-3 input-group-lg">
+            <div class="input-group mb-3 ml-3 input-group-lg">
                 <input type="text" class="form-control" placeholder="To where ?">
             </div>
-            <div class="input-group mb-3 input-group-lg">
+            <div class="input-group mb-3 ml-3 input-group-lg">
                 <input type="date" class="form-control" placeholder="Leaving on?">
             </div>
-            <div class="input-group mb-3 input-group-lg">
+            <div class="input-group mb-3 ml-3 input-group-lg">
                 <input type="date" class="form-control" placeholder="Returning on?">
-            </div>
+            </div>		
         </div>
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
+	<form class="d-flex space-between">
+                  <button class="btn btn-danger" type="button">Let's go!</button> &nbsp;&nbsp;
+&nbsp;		<input class="form-check-input" type="checkbox" id="check1" name="option1" value="something"> &nbsp;
             <label class="form-check-label">My dates are flexible(+/- 3days)</label>
-        </div>
+        </form>
+        
     </div>
     <div>
         <div class="today-deals">

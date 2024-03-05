@@ -3,9 +3,17 @@
     opacity: 0.85;
     height: 60vh;
     background-size: cover;
-    color: white;
+    color: black;
     padding-top: 5em;
-    padding-left: 5em;
+    padding-left: 1em;
+}
+
+.today-deals, popular-hotels { 
+	padding-top: 2em;
+}
+
+.today-deals h5, popular-hotels h5 { 
+	padding-left: 1em;
 }
 
 .jeddah {
